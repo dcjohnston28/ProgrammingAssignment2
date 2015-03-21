@@ -1,7 +1,7 @@
 ## The purpose of these functions is to create an efficient method of obtaining
 ## the inverse of a matrix, when the matrix may or may not be updated when a program
 ## is being run.  Once the "cacheMatrix" vector is initialized the first time, for example
-##    xCached <- cacheMatrix(x)
+##    xCached <- makeCacheMatrix(x)
 ## then future updates to the matrix should be done using the xCached$set function
 ## cacheSolve(xCached) should then be used in place of solve(x) to obtain the inverse
 
